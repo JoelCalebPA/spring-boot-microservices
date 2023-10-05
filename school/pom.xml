@@ -21,8 +21,15 @@
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>student</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>${project.parent.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>*</groupId>
+                    <artifactId>*</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
