@@ -4,23 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4623bec8-31c0-41d5-b49e-d54e89360419" name="Changes" comment="working on dockerfile">
-      <change afterPath="$PROJECT_DIR$/discovery/src/main/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school/src/main/docker/Dockerfile" afterDir="false" />
+    <list default="true" id="4623bec8-31c0-41d5-b49e-d54e89360419" name="Changes" comment="dockerfile added">
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/docker/.maven-dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-server/src/main/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/discovery/src/main/docker/.maven-dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/docker/.maven-dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/src/main/docker/.maven-dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/school/src/main/java/com/example/school/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/student/src/main/docker/.maven-dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/discovery.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/gateway.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/schools.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/src/main/resources/configurations/students.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/docker/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/school/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/school/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/docker/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/com/example/school/client/StudentClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/com/example/school/client/StudentClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/school/src/main/java/com/example/school/dto/FullSchoolResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/school/src/main/java/com/example/school/dto/FullSchoolResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/student/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/student/src/main/docker/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/docker/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/student/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/student/src/main/resources/application.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Caleb/git/spring-boot-microservices/school/src/main",
+    "last_opened_file_path": "C:/Users/Caleb/git/spring-boot-microservices/config-server/src/main/docker",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -70,14 +75,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Caleb\git\spring-boot-microservices\school\src\main" />
-      <recent name="C:\Users\Caleb\git\spring-boot-microservices\gateway\src\main" />
-      <recent name="C:\Users\Caleb\git\spring-boot-microservices\discovery\src\main" />
-      <recent name="C:\Users\Caleb\git\spring-boot-microservices\config-server\src\main\resources\configurations" />
-      <recent name="C:\Users\Caleb\git\spring-boot-microservices\school\src\main\resources" />
+      <recent name="C:\Users\Caleb\git\spring-boot-microservices\config-server\src\main\docker" />
+      <recent name="C:\Users\Caleb\git\spring-boot-microservices\discovery\src\main\docker" />
+      <recent name="C:\Users\Caleb\git\spring-boot-microservices\gateway\src\main\docker" />
+      <recent name="C:\Users\Caleb\git\spring-boot-microservices\school\src\main\docker" />
+      <recent name="C:\Users\Caleb\git\spring-boot-microservices\student\docker" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.school.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConfigServerApplication">
+  <component name="RunManager" selected="Application.SchoolApplication">
     <configuration name="ConfigServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.example.configserver.ConfigServerApplication" />
       <module name="config-server" />
@@ -145,8 +153,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.SchoolApplication" />
+        <item itemvalue="Application.ConfigServerApplication" />
         <item itemvalue="Application.StudentApplication" />
         <item itemvalue="Application.GatewayApplication" />
         <item itemvalue="Application.DiscoveryApplication" />
@@ -176,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696493163063</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="dockerfile added">
+      <created>1696580525507</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1696580525507</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,6 +208,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="replicated and working" />
     <MESSAGE value="working on dockerfile" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on dockerfile" />
+    <MESSAGE value="dockerfile added" />
+    <option name="LAST_COMMIT_MESSAGE" value="dockerfile added" />
   </component>
 </project>

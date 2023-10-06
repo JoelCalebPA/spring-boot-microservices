@@ -1,6 +1,6 @@
 package com.example.school.client;
 
-import com.example.student.model.Student;
+import com.example.school.model.Student;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

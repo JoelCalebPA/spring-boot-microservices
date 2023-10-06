@@ -1,6 +1,6 @@
 package com.example.school.dto;
 
-import com.example.student.model.Student;
+import com.example.school.model.Student;
 import lombok.*;
 
 import java.util.List;
